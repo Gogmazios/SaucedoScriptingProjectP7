@@ -21,9 +21,9 @@ public class UsingOtherComponents : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        boxCol.size = new Vector(3, 3, 3);
-        Debug.log("The player's score is " + anotherScript.playerScore);
-        Debug.Log("The player has seen BigHero6/player is died" + yetAnotherScript.numberOfPlayerDeaths + " times"); 
+        boxCol.size = new Vector3(3, 3, 3);
+        Debug.Log("The player's score is " + anotherScript.playerScore);
+        Debug.Log("The player has seen BigHero6/player has died" + yetAnotherScript.numberOfPlayerDeaths + " from seeing that movie."); 
 
     }
 
